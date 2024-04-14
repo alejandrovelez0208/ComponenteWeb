@@ -22,25 +22,30 @@ export const panel_css = css`
   }
 
   .drawer {
+    font-family: verdana;
+    font-size: 18px;
     overflow: hidden;
     width: 15%;
     float: left;
+    height: 91vh;
+    border-right: 1px solid rgba(204, 204, 204, 0.5);
   }
 
   .drawer ul {
     padding-right: 10px;
+    margin: 0;
   }
 
   .drawer ul li {
     list-style: none;
     padding: 10px;
-    /*border-right: 1px solid rgba(204, 204, 204, 0.5);*/
     white-space: nowrap;
   }
 
   .targetClose {
     width: 0;
     transition: width 0.5s ease;
+    border-right: none;
   }
 
   .targetOpen {
@@ -49,6 +54,6 @@ export const panel_css = css`
   }
 
   .info {
-   
+    border-top: 1px solid rgba(204, 204, 204, 0.5);
   }
 `;

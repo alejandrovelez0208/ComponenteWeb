@@ -18,8 +18,8 @@ class PanelMain extends LitElement {
       <label>My App</label>
     </div>
     <div class="navbar-right">
-      <vaadin-button class="theme size">
-        <vaadin-icon icon="vaadin:cogs"></vaadin-icon></vaadin-icon>
+      <vaadin-button class="theme size">Cuenta
+        <vaadin-icon icon="vaadin:clipboard-user"></vaadin-icon></vaadin-icon>
       </vaadin-button>
     </div>
   </nav>
@@ -28,44 +28,32 @@ class PanelMain extends LitElement {
       <ul>
         <li>
           <a href="/dashboard">
-            <vaadin-icon icon="vaadin:dashboard" slot="prefix"></vaadin-icon>
+            <vaadin-icon icon="vaadin:panel" slot="prefix"></vaadin-icon>
             Dashboard
           </a>
         </li>
         <li>
-          <a href="/orders">
-            <vaadin-icon icon="vaadin:cart" slot="prefix"></vaadin-icon>
-            Orders
+          <a href="/agregar">
+            <vaadin-icon icon="vaadin:file-add" slot="prefix"></vaadin-icon>
+            Agregar
           </a>
         </li>
         <li>
-          <a href="/customers">
-            <vaadin-icon icon="vaadin:user-heart" slot="prefix"></vaadin-icon>
-            Customers
+          <a href="/buscar">
+            <vaadin-icon icon="vaadin:search" slot="prefix"></vaadin-icon>
+            Buscar
           </a>
         </li>
         <li>
-          <a href="/products">
-            <vaadin-icon icon="vaadin:package" slot="prefix"></vaadin-icon>
-            Products
-          </a>
-        </li>
-        <li>
-          <a href="/documents">
-            <vaadin-icon icon="vaadin:records" slot="prefix"></vaadin-icon>
-            Documents
-          </a>
-        </li>
-        <li>
-          <a href="/tasks">
-            <vaadin-icon icon="vaadin:list" slot="prefix"></vaadin-icon>
-            Tasks
+          <a href="/estadisticas">
+            <vaadin-icon icon="vaadin:bar-chart" slot="prefix"></vaadin-icon>
+            Estadisticas
           </a>
         </li>
       </ul>
     </div>
     <div class="info">
-      <p></p>
+      <div id="menu"><div>
     </div>
   </section>
 

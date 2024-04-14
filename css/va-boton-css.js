@@ -8,7 +8,7 @@ export const va_boton = css`
   }
 
   vaadin-button.size {
-    font-size: 16px;
+    font-size: 20px;
     padding: 10px 20px;
   }
 

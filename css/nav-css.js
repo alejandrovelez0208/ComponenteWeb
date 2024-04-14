@@ -6,7 +6,8 @@ export const nav_css = css`
     display: flex;
     border-radius: 10px;
     font-size: 20px;
-    padding: 1px;
+    font-family: verdana;
+    padding: 10px;
   }
 
   .navbar-left {
