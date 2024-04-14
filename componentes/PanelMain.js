@@ -56,7 +56,6 @@ class PanelMain extends LitElement {
       <div id="menu"><div>
     </div>
   </section>
-
 </div>
 `;
   }
