@@ -7,26 +7,24 @@ export const panel_css = css`
     list-style: none;
     text-decoration: none;
     color: black;
-    padding-left: 8px;
+    padding-left: 5px;
     white-space: nowrap;
+    margin: 0;
   }
 
   .section {
+    display: flex; 
     overflow: hidden;
-    width: 0;
-    transition: width 0.3s ease;
-    background-color: #f0f0f0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
+    background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    transition: width 0.5s ease;
   }
 
   .drawer {
-    overflow: hidden; /* Evita que el contenido desborde del panel */
-    width: 200px;
+    overflow: hidden;
+    width: 15%;
+    float: left;
   }
 
   .drawer ul {
@@ -36,15 +34,21 @@ export const panel_css = css`
   .drawer ul li {
     list-style: none;
     padding: 10px;
-    border-bottom: 1px solid #ccc;
+    /*border-right: 1px solid rgba(204, 204, 204, 0.5);*/
     white-space: nowrap;
   }
 
   .targetClose {
-    display: none;
+    width: 0;
+    transition: width 0.5s ease;
   }
 
-  .targetOpen{
-    display: block;
+  .targetOpen {
+    width: 200px;
+    transition: width 0.5s ease;
+  }
+
+  .info {
+   
   }
 `;

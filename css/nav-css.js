@@ -1,13 +1,12 @@
 import { css } from "lit-element";
 
 export const nav_css = css`
-  .main {
-    display: block;
-  }
-
   .navbar {
-    background-color: #eeeeee;
+    background-color: #ffffff;
     display: flex;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 1px;
   }
 
   .navbar-left {

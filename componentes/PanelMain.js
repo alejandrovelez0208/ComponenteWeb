@@ -65,7 +65,7 @@ class PanelMain extends LitElement {
       </ul>
     </div>
     <div class="info">
-
+      <p></p>
     </div>
   </section>
 
@@ -76,7 +76,7 @@ class PanelMain extends LitElement {
   toggleDrawer() {
     this.drawerOpen = !this.drawerOpen;
     if (this.drawerOpen) {
-      this.estiloClase = "targetOpen"; 
+      this.estiloClase = "targetOpen";
     } else {
       this.estiloClase = "targetClose";
     }
