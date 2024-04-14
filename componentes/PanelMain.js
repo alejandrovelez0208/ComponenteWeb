@@ -74,14 +74,12 @@ class PanelMain extends LitElement {
   }
 
   toggleDrawer() {
-    this.drawerOpen = !this.drawerOpen; // Cambia el estado del cajón
+    this.drawerOpen = !this.drawerOpen;
     if (this.drawerOpen) {
-      this.estiloClase = "targetOpen"; // Establece la clase CSS apropiada si el cajón está abierto
+      this.estiloClase = "targetOpen"; 
     } else {
-      this.estiloClase = "targetClose"; // Establece la clase CSS apropiada si el cajón está cerrado
+      this.estiloClase = "targetClose";
     }
-    console.log("drawerOpen:", this.drawerOpen); // Verificar el valor de drawerOpen
-    console.log("estiloClase:", this.estiloClase);
   }
 
   handleClick() {
