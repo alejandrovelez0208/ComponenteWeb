@@ -1,0 +1,22 @@
+{
+  "name": "plantilla-litelement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch --app-index=index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@web/dev-server": "^0.4.4"
+  },
+  "dependencies": {
+    "@polymer/iron-icons": "^3.0.1",
+    "@vaadin/vaadin-button": "^23.5.1",
+    "@vaadin/vaadin-icon": "^23.5.1",
+    "@vaadin/vaadin-icons": "^23.5.1",
+    "lit": "^3.1.2"
+  }
+}
