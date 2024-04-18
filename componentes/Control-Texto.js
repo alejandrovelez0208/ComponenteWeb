@@ -4,7 +4,7 @@ import "@vaadin/vaadin-text-field";
 class ControlTexto extends LitElement {
   render() {
     return html`
-      <vaadin-text-field
+      <vaadin-text-field id="textField"
         class="btn-input"
         label="${this.customLabel}"
       ></vaadin-text-field>
