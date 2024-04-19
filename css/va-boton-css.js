@@ -12,4 +12,11 @@ export const va_boton = css`
     padding: 10px 20px;
   }
 
+  vaadin-icon{
+    font-size: 13px;
+  }
+
+  vaadin-icon.nav-sizeIcon{
+    font-size: 20px;
+  }  
 `;

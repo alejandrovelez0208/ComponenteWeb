@@ -1,6 +1,12 @@
 import { css } from "lit-element";
 
 export const panel_css = css`
+  @import url("https://fonts.googleapis.com/css2?family=Jacquard+24&family=Roboto+Slab:wght@900&display=swap");
+  * {
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+  }
+
   .side-nav,
   ul,
   a {
@@ -13,7 +19,7 @@ export const panel_css = css`
   }
 
   .section {
-    display: flex; 
+    display: flex;
     overflow: hidden;
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);

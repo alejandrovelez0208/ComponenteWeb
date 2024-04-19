@@ -13,13 +13,13 @@ class PanelMain extends LitElement {
   <nav class="navbar">
     <div class="navbar-left">
       <vaadin-button class="theme size" @click="${this.handleClick}">
-        <vaadin-icon icon="vaadin:align-justify"></vaadin-icon></vaadin-icon>
+        <vaadin-icon class="nav-sizeIcon" icon="vaadin:align-justify"></vaadin-icon></vaadin-icon>
       </vaadin-button>
       <label>My App</label>
     </div>
     <div class="navbar-right">
       <vaadin-button class="theme size">Cuenta
-        <vaadin-icon icon="vaadin:clipboard-user"></vaadin-icon></vaadin-icon>
+        <vaadin-icon class="nav-sizeIcon" icon="vaadin:clipboard-user"></vaadin-icon></vaadin-icon>
       </vaadin-button>
     </div>
   </nav>
