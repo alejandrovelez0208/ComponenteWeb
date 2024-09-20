@@ -16,7 +16,11 @@ export const component = css`
   .form-label {
     flex-shrink: 0;
     white-space: nowrap;
-    font-size: 15px;
+    font-size: 18px;
+  }
+
+  .from-label-top{
+    flex-direction: column;
   }
 
   .form-input {
@@ -28,6 +32,19 @@ export const component = css`
     width: 100%;
     padding-right: 50px;
   }
+
+  .width-label-50 > .form-label {
+    width: 50px;
+  }
+
+  .width-label-60 > .form-label {
+    width: 60px;
+  }
+
+  .width-label-70 > .form-label {
+    width: 70px;
+  }
+
   .width-label-130 > .form-label {
     width: 130px;
   }
