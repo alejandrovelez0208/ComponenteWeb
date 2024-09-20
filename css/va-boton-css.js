@@ -13,10 +13,7 @@ export const va_boton = css`
   }
 
   vaadin-icon{
-    font-size: 13px;
+    font-size: 8px;
   }
 
-  vaadin-icon.nav-sizeIcon{
-    font-size: 20px;
-  }  
 `;
