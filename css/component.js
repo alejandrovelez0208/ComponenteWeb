@@ -16,7 +16,7 @@ export const component = css`
   .form-label {
     flex-shrink: 0;
     white-space: nowrap;
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .from-label-top{

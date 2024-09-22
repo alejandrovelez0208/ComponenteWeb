@@ -3,7 +3,7 @@ import { css } from "lit-element";
 export const vaadin_components_style = css`
     vaadin-text-field::part(input-field) {
         font-weight: normal;
-        font-size: 18px;
+        font-size: 17px;
         background: none; 
         border: 1px solid Black;  
         padding: 3px;
@@ -38,4 +38,28 @@ export const vaadin_components_style = css`
         margin: 0;
         padding: 5px;
     }
+
+    vaadin-button {
+        margin: 0;
+        padding: 0;
+        border: none;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);;
+
+
+        font-weight: normal;
+        color: inherit;
+        width: auto;
+        height: auto;
+    }
+
+    vaadin-button::part(label) {
+        font-size: 17px;
+        color: black;
+        text-align: center;   
+    } 
+    
+    vaadin-button.theme-1{
+        background-color: #C1CFA1;
+    }
+
 `;
