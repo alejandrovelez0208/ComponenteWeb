@@ -15,6 +15,7 @@
   "dependencies": {
     "@polymer/iron-icons": "^3.0.1",
     "@vaadin/vaadin-button": "^23.5.1",
+    "@vaadin/vaadin-grid": "^23.5.5",
     "@vaadin/vaadin-icon": "^23.5.1",
     "@vaadin/vaadin-icons": "^23.5.1",
     "@vaadin/vaadin-text-field": "^23.5.1",
